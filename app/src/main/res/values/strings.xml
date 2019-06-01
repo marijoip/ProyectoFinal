@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">ProyectoFinal</string>
+    <string name="app_name">Floating Action Button</string>
     <string name="action_settings">Settings</string>
-    <string name="todo1">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="todo" />
 </resources>
