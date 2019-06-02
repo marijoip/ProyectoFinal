@@ -47,25 +47,29 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Cuerpo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            fab:fab_colorNormal="@android:color/holo_purple"
-            fab:fab_label="Partes del cuerpo"
-            fab:fab_size="mini" />
-
-        <com.github.clans.fab.FloatingActionButton
             android:id="@+id/p_Comunes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="PComunesIntent"
             fab:fab_colorNormal="@android:color/holo_orange_dark"
             fab:fab_label="Palabras comúnes"
+            fab:fab_size="mini" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/p_Cuerpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pcuerpoIntent"
+            fab:fab_colorNormal="@android:color/holo_purple"
+            fab:fab_label="Partes del cuerpo"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Abecedario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="AbecedarioIntent"
             fab:fab_colorNormal="@android:color/holo_red_dark"
             fab:fab_label="Abecedario"
             fab:fab_size="mini" />
@@ -74,6 +78,7 @@
             android:id="@+id/Numeros"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="NumerosIntent"
             fab:fab_colorNormal="#00B0FF"
             fab:fab_label="Números"
             fab:fab_size="mini" />
@@ -83,9 +88,23 @@
             android:id="@+id/Colores"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="ColoresIntent"
             fab:fab_colorNormal="@android:color/holo_green_light"
             fab:fab_label="Colores"
             fab:fab_size="mini" />
     </com.github.clans.fab.FloatingActionMenu>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="47dp"
+        android:fontFamily="sans-serif-black"
+        android:text="ANIMALES"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
 </RelativeLayout>
 
