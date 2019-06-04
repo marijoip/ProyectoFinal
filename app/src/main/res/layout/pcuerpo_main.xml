@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo">
@@ -51,10 +52,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="PComunesIntent"
+            android:src="@drawable/palabras"
             fab:fab_colorNormal="@android:color/holo_orange_dark"
             fab:fab_label="Palabras comúnes"
-            fab:fab_size="mini" />
-
+            fab:fab_size="mini"
+            tools:src="@drawable/palabras" />
 
 
         <com.github.clans.fab.FloatingActionButton
@@ -62,17 +64,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AbecedarioIntent"
+            android:src="@drawable/abecedario"
             fab:fab_colorNormal="@android:color/holo_red_dark"
             fab:fab_label="Abecedario"
-            fab:fab_size="mini" />
+            fab:fab_size="mini"
+            tools:src="@drawable/abecedario" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Animales"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="AnimalesIntent"
+            android:src="@drawable/animaless"
             fab:fab_colorNormal="?attr/colorError"
             fab:fab_label="Animales"
-            android:onClick="AnimalesIntent"
             fab:fab_size="mini" />
 
 
@@ -81,9 +86,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="NumerosIntent"
+            android:src="@drawable/numeros"
             fab:fab_colorNormal="#00B0FF"
             fab:fab_label="Números"
-            fab:fab_size="mini" />
+            fab:fab_size="mini"
+            tools:src="@drawable/numeros" />
 
 
         <com.github.clans.fab.FloatingActionButton
@@ -91,9 +98,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="ColoresIntent"
+            android:src="@drawable/colores"
             fab:fab_colorNormal="@android:color/holo_green_light"
             fab:fab_label="Colores"
-            fab:fab_size="mini" />
+            fab:fab_size="mini"
+            tools:src="@drawable/colores" />
     </com.github.clans.fab.FloatingActionMenu>
 
     <TextView

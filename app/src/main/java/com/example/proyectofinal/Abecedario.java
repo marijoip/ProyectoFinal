@@ -16,28 +16,32 @@ public class Abecedario extends AppCompatActivity {
     public void ColoresIntent(View view) {
         Intent a = new Intent(Abecedario.this, Colores.class);
         startActivity(a);
+        finish();
     }
 
     public void AnimalesIntent(View view) {
         Intent a = new Intent(Abecedario.this, MainActivity.class);
         startActivity(a);
+        finish();
     }
 
     public void NumerosIntent(View view) {
         Intent a = new Intent(Abecedario.this, Numeros.class);
         startActivity(a);
+        finish();
     }
 
 
     public void pcuerpoIntent(View view) {
         Intent a = new Intent(Abecedario.this, P_Cuerpo.class);
         startActivity(a);
+        finish();
     }
 
     public void   PComunesIntent(View view) {
         Intent a = new Intent(Abecedario.this,P_Comunes.class);
         startActivity(a);
-
+        finish();
 
 
     }

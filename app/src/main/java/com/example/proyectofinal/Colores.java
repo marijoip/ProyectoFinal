@@ -17,26 +17,31 @@ public class Colores extends AppCompatActivity {
     public void AnimalesIntent(View view) {
         Intent a = new Intent(Colores.this,MainActivity.class);
         startActivity(a);
+        finish();
     }
 
     public void NumerosIntent(View view) {
         Intent a = new Intent(Colores.this,Numeros.class);
         startActivity(a);
+        finish();
     }
 
     public void AbecedarioIntent(View view) {
         Intent a = new Intent(Colores.this,Abecedario.class);
         startActivity(a);
+        finish();
     }
 
     public void pcuerpoIntent(View view) {
         Intent a = new Intent(Colores.this,P_Cuerpo.class);
         startActivity(a);
+        finish();
     }
 
     public void   PComunesIntent(View view) {
         Intent a = new Intent(Colores.this,P_Comunes.class);
         startActivity(a);
+        finish();
 
 
     }
