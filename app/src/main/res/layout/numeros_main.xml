@@ -52,11 +52,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="PComunesIntent"
-            android:src="@drawable/palabras"
             fab:fab_colorNormal="@android:color/holo_orange_dark"
             fab:fab_label="Palabras comúnes"
-            fab:fab_size="mini"
-            tools:src="@drawable/palabras" />
+            fab:fab_size="mini" />
 
 
         <com.github.clans.fab.FloatingActionButton
@@ -64,45 +62,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="pcuerpoIntent"
-            android:src="@drawable/partescuerpo"
             fab:fab_colorNormal="@android:color/holo_purple"
             fab:fab_label="Partes del cuerpo"
-            fab:fab_size="mini"
-            tools:src="@drawable/partescuerpo" />
+            fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Abecedario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AbecedarioIntent"
-            android:src="@drawable/abecedario"
             fab:fab_colorNormal="@android:color/holo_red_dark"
             fab:fab_label="Abecedario"
-            fab:fab_size="mini"
-            tools:src="@drawable/abecedario" />
+            fab:fab_size="mini" />
 
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Animales"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="AnimalesIntent"
-            android:src="@drawable/animaless"
             fab:fab_colorNormal="?attr/colorError"
             fab:fab_label="Animales"
-            fab:fab_size="mini"
-            tools:src="@drawable/animaless" />
+            android:onClick="AnimalesIntent"
+            fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Colores"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="ColoresIntent"
-            android:src="@drawable/colores"
             fab:fab_colorNormal="@android:color/holo_green_light"
             fab:fab_label="Colores"
-            fab:fab_size="mini"
-            tools:src="@drawable/colores" />
+            fab:fab_size="mini" />
 
 
 
@@ -120,5 +110,15 @@
         android:text="NÚMEROS"
         android:textColor="@android:color/white"
         android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 </RelativeLayout>
