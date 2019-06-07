@@ -9,15 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".P_Comunes"/>
-        <activity android:name=".P_Cuerpo"/>
-        <activity android:name=".Abecedario"/>
-        <activity android:name=".Numeros"/>
-        <activity android:name=".Colores"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".SplashScreen">
+        <activity android:name=".P_Comunes"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".P_Cuerpo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Abecedario"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Numeros"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Colores"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"
+                    android:screenOrientation="portrait"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
