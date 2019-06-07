@@ -35,13 +35,15 @@
                 android:layout_marginTop="120dp"
                 android:text="Button" />
 
-            <Button
-                android:id="@+id/button3"
+            <ImageButton
+                android:id="@+id/crack"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
                 android:layout_marginLeft="230dp"
                 android:layout_marginTop="-76dp"
-                android:text="Button" />
+                android:text="Button"
+                fab:srcCompat="@drawable/images"
+                />
 
             <Button
                 android:id="@+id/button4"
