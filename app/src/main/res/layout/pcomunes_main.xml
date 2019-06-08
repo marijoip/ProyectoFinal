@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
+            <ImageButton
                 android:id="@+id/button2"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
@@ -22,7 +22,7 @@
                 android:layout_marginTop="120dp"
                 android:text="Button" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button3"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
@@ -30,7 +30,7 @@
                 android:layout_marginTop="-76dp"
                 android:text="Button" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button4"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
@@ -38,7 +38,7 @@
                 android:layout_marginTop="120dp"
                 android:text="Button" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button5"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
@@ -46,7 +46,7 @@
                 android:layout_marginTop="-75dp"
                 android:text="Button" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button6"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
@@ -54,7 +54,7 @@
                 android:layout_marginTop="120dp"
                 android:text="Button" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button7"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
@@ -62,7 +62,7 @@
                 android:layout_marginTop="-75dp"
                 android:text="Button" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button8"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
@@ -70,7 +70,7 @@
                 android:layout_marginTop="120dp"
                 android:text="Button" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button9"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
