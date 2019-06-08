@@ -22,7 +22,7 @@
                 android:layout_marginStart="56dp"
                 android:layout_marginTop="47dp"
                 android:fontFamily="sans-serif-black"
-                android:text="PARTES DEL CUERPO"
+                android:text="Partes de cuerpo"
                 android:textColor="@android:color/white"
                 android:textSize="30sp" />
 
@@ -94,7 +94,7 @@
     </ScrollView>
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/material_design_android_floating_action_menu"
-        android:layout_width="wrap_content"
+        android:layout_width="226dp"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -102,6 +102,7 @@
         android:layout_marginLeft="150dp"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="11dp"
+
         fab:menu_animationDelayPerItem="55"
         fab:menu_backgroundColor="@android:color/transparent"
         fab:menu_buttonSpacing="0dp"
@@ -134,32 +135,31 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Comunes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="PComunesIntent"
-            fab:fab_colorNormal="@android:color/holo_orange_dark"
-            fab:fab_label="Palabras comúnes"
-            fab:fab_size="mini" />
-
-
-
-        <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Abecedario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AbecedarioIntent"
-            fab:fab_colorNormal="@android:color/holo_red_dark"
+            fab:fab_colorNormal="#FF699F"
             fab:fab_label="Abecedario"
+            fab:fab_size="mini" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/p_Comunes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="PComunesIntent"
+            fab:fab_colorNormal="#F1DF50"
+            fab:fab_label="Palabras comunes"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Animales"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="?attr/colorError"
-            fab:fab_label="Animales"
             android:onClick="AnimalesIntent"
+            fab:fab_colorNormal="#EC4949"
+            fab:fab_label="Animales"
             fab:fab_size="mini" />
 
 
@@ -168,19 +168,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="NumerosIntent"
-            fab:fab_colorNormal="#00B0FF"
+            fab:fab_colorNormal="#62BAFD"
             fab:fab_label="Números"
             fab:fab_size="mini" />
-
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Colores"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="ColoresIntent"
-            fab:fab_colorNormal="@android:color/holo_green_light"
+            fab:fab_colorNormal="#67D66C"
             fab:fab_label="Colores"
             fab:fab_size="mini" />
+
+
     </com.github.clans.fab.FloatingActionMenu>
 
 </android.support.design.widget.CoordinatorLayout>

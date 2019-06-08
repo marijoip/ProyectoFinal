@@ -141,7 +141,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="PComunesIntent"
-            fab:fab_colorNormal="@android:color/holo_orange_dark"
+            fab:fab_colorNormal="#F1DF50"
             fab:fab_label="Palabras comúnes"
             fab:fab_size="mini" />
 
@@ -151,7 +151,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="pcuerpoIntent"
-            fab:fab_colorNormal="@android:color/holo_purple"
+            fab:fab_colorNormal="#D770E9"
             fab:fab_label="Partes del cuerpo"
             fab:fab_size="mini" />
 
@@ -160,7 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AnimalesIntent"
-            fab:fab_colorNormal="?attr/colorError"
+            fab:fab_colorNormal="#EC4949"
             fab:fab_label="Animales"
             fab:fab_size="mini" />
 
@@ -170,7 +170,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="NumerosIntent"
-            fab:fab_colorNormal="#00B0FF"
+            fab:fab_colorNormal="#62BAFD"
             fab:fab_label="Números"
             fab:fab_size="mini" />
 
@@ -179,7 +179,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="ColoresIntent"
-            fab:fab_colorNormal="@android:color/holo_green_light"
+            fab:fab_colorNormal="#67D66C"
             fab:fab_label="Colores"
             fab:fab_size="mini" />
 
