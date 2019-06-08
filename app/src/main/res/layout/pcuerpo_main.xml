@@ -134,15 +134,6 @@
         fab:menu_showShadow="true">
 
 
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Abecedario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="AbecedarioIntent"
-            fab:fab_colorNormal="#FF699F"
-            fab:fab_label="Abecedario"
-            fab:fab_size="mini" />
-
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/p_Comunes"
@@ -153,6 +144,14 @@
             fab:fab_label="Palabras comunes"
             fab:fab_size="mini" />
 
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/Abecedario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="AbecedarioIntent"
+            fab:fab_colorNormal="#FF699F"
+            fab:fab_label="Abecedario"
+            fab:fab_size="mini" />
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/Animales"
             android:layout_width="wrap_content"
